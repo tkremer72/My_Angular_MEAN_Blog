@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/mean-blog",
+            "outputPath": "./backend/angular-mean-blog",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "mean-blog"
+  "defaultProject": "mean-blog",
+  "cli": {
+    "analytics": false
+  }
 }
