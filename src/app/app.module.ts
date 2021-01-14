@@ -20,6 +20,9 @@ import { CreateBlogComponent } from './components/blog/create-blog/create-blog.c
 import { BlogDetailsComponent } from './components/blog/blog-details/blog-details.component';
 import { UserUpdateComponent } from './components/user/user-update/user-update.component';
 import { ErrorComponent } from './components/shared/error/error.component';
+import { WebtekIncComponent } from './components/shared/webtek-inc/webtek-inc.component';
+import { ListUsersComponent } from './components/admin/list-users/list-users.component';
+import { AdminProfileComponent } from './components/admin/admin-profile/admin-profile.component';
 
 @NgModule({
   declarations: [
@@ -33,8 +36,12 @@ import { ErrorComponent } from './components/shared/error/error.component';
     BlogDetailsComponent,
     UserUpdateComponent,
     ErrorComponent,
+    WebtekIncComponent,
+    ListUsersComponent,
+    AdminProfileComponent,
   ],
   imports: [
+    AngularMaterialModule,
     BrowserAnimationsModule,
     BrowserModule,
     HttpClientModule,
